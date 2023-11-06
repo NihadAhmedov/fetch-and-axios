@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 50px;
+}
+
+#btn {
+    width: 90px;
+    padding: 7px;
+    background-color: rgb(57, 193, 154);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#inp {
+    width: 200px;
+    padding: 5px;
+}
+
+#list li button {
+    background-color: green;
+    border: 1px solid black;
+    width: 50px;
+    padding: 4px;
+    color: wheat;
+    cursor: pointer;
+    margin-left: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // function qaliq(x) {
+        //     for (let i = 0; i < 100; i++) {
+
+        //         if (i % x == 0)
+        //             console.log(x);
+        //     }
+        // }
+
+        // qaliq(2);
+
+
+        // let students = [
+        //     { name: "Fuad", surname: "Ismayilov", age: 20, group: "SWP102" },
+        //     { name: "Nicat", surname: "Babayev", age: 19, group: "SWP202" },
+        //     { name: "Sevane", surname: "Muradova", age: 18, group: "SWP102" },
+        //     { name: "Leyla", surname: "Kerimova", age: 20, group: "SWP202" },
+        //     { name: "Jale", surname: "Memmedova", age: 20, group: "SWP202" },
+        // ];
+
+
+        // function myFunction(x) {
+        //     // for (let i = 0; i < students.length; i++) {
+        //     //     if (age == x);
+        //     //     console.log(x);
+        //     let resul = students.filter(item => item.age == x);
+        //     console.log(resul);
+        // }
+
+
+        // myFunction(20);
+
+
+        students = [
+            { id: 1, name: "Fuad", surname: "Ismayilov", age: 20, group: "SWP102" },
+            { id: 172, name: "Nicat", surname: "Babayev", age: 19, group: "SWP202" },
+            { id: 1233, name: "Sevane", surname: "Muradova", age: 18, group: "SWP102" },
+            { id: 8927, name: "Leyla", surname: "Kerimova", age: 20, group: "SWP202" },
+            { id: 3, name: "Jale", surname: "Memmedova", age: 20, group: "SWP202" },
+        ];
+
+
+        // function myFunction(x) {
+
+        //     let resul = students.filter(item => item.age == x && item.name != "Aydan");
+        //     let rulet = resul.sort((a, b) => a.id - b.id);
+        //     console.log(rulet);
+
+        //     let end = resul.pop();
+        //     resul.unshift(end);
+
+        // }
+
+        // myFunction(20);
+
+
+        function myFunction(namee){
+            let resul = students.filter( item => item.name.length >= 5 &&  item.name == namee && item.group == "SWP202" );
+            console.log(resul);
+
+        }
+
+        myFunction("Nicat");
+
+    </script>
+</body>
+
+</html>

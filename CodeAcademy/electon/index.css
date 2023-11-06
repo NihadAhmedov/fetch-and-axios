@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.umumi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+.electon{
+    color: aliceblue;
+}
+.href1{
+    display: flex;
+    gap: 15px;
+}
+
+.href{
+    display: flex;
+    color: aliceblue;
+ 
+}

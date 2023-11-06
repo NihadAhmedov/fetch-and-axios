@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container .magnam {
+  margin-bottom: 15px;
+}
+.container .img {
+  width: 100%;
+  height: auto;
+}
+.container p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

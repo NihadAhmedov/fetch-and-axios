@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.umumi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.img {
+  height: 50px;
+  cursor: pointer;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#links a {
+  color: white;
+}
+
+.link {
+  display: flex;
+  gap: 25px;
+}
+
+.icon {
+  display: flex;
+  gap: 25px;
+}
+
+.home {
+  position: relative;
+}
+
+.main {
+  position: absolute;
+  display: none;
+}
+
+.home:hover .main {
+  display: block;
+}
+
+.menu li a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+
+}
+
+.image {
+  width: 100%;
+  height: 500px;
+}
+
+.images {
+  width: 100%;
+  width: 320px;
+}
+
+#btn {
+  border: none;
+  padding: 7px;
+  color: black;
+}
+
+#btn:hover {
+  color: orange;
+}
+
+.imagies {
+  width: 100%;
+  height: 420px;
+}
+
+#back {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+}
+
+#img {
+  width: 100%;
+  height: auto;
+}
+
+#btns {
+  border: none;
+  width: 40%;
+  padding: 5px;
+}
+
+#btns:hover {
+  background-color: black;
+  color: white;
+}
+
+#imge {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#foto {
+  width: 100%;
+  height: 550px;
+}
+.son{
+  position: relative;
+}
+
+.umumi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+}
+
+#inp {
+  border: none;
+  padding: 8px;
+}

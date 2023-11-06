@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 25px;
+    background-color: bisque;
+}
+
+h1{
+    color: red;
+    margin-bottom: 25px;
+}
+
+h1 strong{
+    color: green;
+}
+
+#form{
+    position: relative;
+}
+#form input{
+    padding: 8px;  
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 0;
+}
+
+#form button{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+
+}
+
+#form button:hover{
+    cursor: pointer;
+    background-color: rgb(236, 7, 7);
+    color: black;
+}
